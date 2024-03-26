@@ -35,3 +35,30 @@ int main(){
 
     return 0;
 }
+
+int main(){
+    FILE *fp;
+    char text;
+    char n;
+    fp = fopen("file101.txt","r");
+    n = fscanf(fp,"%c",&text);
+    while(n!=EOF){
+        n = fscanf(fp,"%c",&text);
+        printf("%c",text);
+    }
+    fclose(fp);
+}
+
+#include <stdio.h>
+int main(){
+    FILE *fp;
+    char text;
+    char n;
+    fp = fopen("file101.txt","r");
+    n = fgetc(fp);
+    while(n!=EOF){
+        n = fgetc(fp);
+        printf("%c",n);
+    }
+    fclose(fp);
+}

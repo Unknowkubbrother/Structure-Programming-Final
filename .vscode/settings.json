@@ -1,5 +1,17 @@
 {
     "files.associations": {
-        "limits": "c"
+        "limits": "c",
+        "typeinfo": "c",
+        "bit": "c",
+        "cctype": "c",
+        "cmath": "c",
+        "compare": "c",
+        "concepts": "c",
+        "cstdio": "c",
+        "cstdlib": "c",
+        "type_traits": "c",
+        "new": "c",
+        "*.tcc": "c",
+        "cstdint": "c"
     }
 }
